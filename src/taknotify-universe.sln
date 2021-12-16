@@ -1,0 +1,211 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify", "..\TakNotify\src\TakNotify\TakNotify.csproj", "{3FF9E36E-8A18-487B-B607-805E8EA9E9EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.AspNetCore", "..\TakNotify.AspNetCore\src\TakNotify.AspNetCore\TakNotify.AspNetCore.csproj", "{FDAB43E2-8EAA-4C02-AB60-0B16A2B1C2B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0CF1BB00-1268-49D0-B621-945A8B051E88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3FBB0495-98A8-4F33-8CA1-F261AE0B3AEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Core.Test", "..\TakNotify\test\TakNotify.Core.Test\TakNotify.Core.Test.csproj", "{83506621-8F6C-4988-BF5C-8104AA1AE563}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.AspNetCore.Test", "..\TakNotify.AspNetCore\test\TakNotify.AspNetCore.Test\TakNotify.AspNetCore.Test.csproj", "{A54B7D94-5203-43DF-A3E1-60ABD361D35B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Test", "..\TakNotify.Test\src\TakNotify.Test\TakNotify.Test.csproj", "{E3762629-7442-4D79-BF40-4E6B9B73CF53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Test.Test", "..\TakNotify.Test\test\TakNotify.Test.Test\TakNotify.Test.Test.csproj", "{7395CB71-E1B0-4D9A-8243-EE3A21982C73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Provider.Smtp", "..\TakNotify.Provider.Smtp\src\TakNotify.Provider.Smtp\TakNotify.Provider.Smtp.csproj", "{1D72E046-6530-4547-BA47-64E58B7EC2EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Provider.Smtp.Test", "..\TakNotify.Provider.Smtp\test\TakNotify.Provider.Smtp.Test\TakNotify.Provider.Smtp.Test.csproj", "{98FB960D-39DD-4166-AB7E-4FDFC29D557B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Provider.AmazonSES", "..\TakNotify.Provider.AmazonSES\src\TakNotify.Provider.AmazonSES\TakNotify.Provider.AmazonSES.csproj", "{1F960B3E-B3BA-448D-9601-F2104D47CEB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Provider.AmazonSES.Test", "..\TakNotify.Provider.AmazonSES\test\TakNotify.Provider.AmazonSES.Test\TakNotify.Provider.AmazonSES.Test.csproj", "{42B16905-8763-4691-825A-2421C67661F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Provider.Mailgun", "..\TakNotify.Provider.Mailgun\src\TakNotify.Provider.Mailgun\TakNotify.Provider.Mailgun.csproj", "{1C6938CA-24B3-4A81-8A90-4080985DDF47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Provider.Mailgun.Test", "..\TakNotify.Provider.Mailgun\test\TakNotify.Provider.Mailgun.Test\TakNotify.Provider.Mailgun.Test.csproj", "{6099549C-6E51-495F-989E-30EB9E671889}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Provider.SendGrid", "..\TakNotify.Provider.SendGrid\src\TakNotify.Provider.SendGrid\TakNotify.Provider.SendGrid.csproj", "{7176E095-FC66-4EFC-AD89-432F955AF514}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Provider.SendGrid.Test", "..\TakNotify.Provider.SendGrid\test\TakNotify.Provider.SendGrid.Test\TakNotify.Provider.SendGrid.Test.csproj", "{59D559A4-ACFB-43FE-97AA-54D48C1A4E27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Provider.Twilio", "..\TakNotify.Provider.Twilio\src\TakNotify.Provider.Twilio\TakNotify.Provider.Twilio.csproj", "{2E573940-8146-458F-8357-97896A0D8D5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakNotify.Provider.Twilio.Test", "..\TakNotify.Provider.Twilio\test\TakNotify.Provider.Twilio.Test\TakNotify.Provider.Twilio.Test.csproj", "{17958DB1-1E75-4C5C-B709-0F72F472EF64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{C3D22DEC-9BCD-43F0-B802-4362101EC307}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{7449367C-AC24-4C0E-839B-9B81C32D5EB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TakNotify", "TakNotify", "{CDCB44A9-3790-48A8-AEA5-7DCF8EDBB6FC}"
+	ProjectSection(SolutionItems) = preProject
+		..\TakNotify\build-test.ps1 = ..\TakNotify\build-test.ps1
+		..\TakNotify\build.ps1 = ..\TakNotify\build.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TakNotify.AspNetCore", "TakNotify.AspNetCore", "{9EF24AA0-B9DE-48B4-9DDF-5178962721EE}"
+	ProjectSection(SolutionItems) = preProject
+		..\TakNotify.AspNetCore\build-test.ps1 = ..\TakNotify.AspNetCore\build-test.ps1
+		..\TakNotify.AspNetCore\build.ps1 = ..\TakNotify.AspNetCore\build.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TakNotify.Provider.AmazonSES", "TakNotify.Provider.AmazonSES", "{A9960F52-EDF4-4DA3-AFCD-C4FFD824ADD4}"
+	ProjectSection(SolutionItems) = preProject
+		..\TakNotify.Provider.AmazonSES\build-test.ps1 = ..\TakNotify.Provider.AmazonSES\build-test.ps1
+		..\TakNotify.Provider.AmazonSES\build.ps1 = ..\TakNotify.Provider.AmazonSES\build.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TakNotify.Provider.Mailgun", "TakNotify.Provider.Mailgun", "{9DBC591B-04D5-439F-BC56-793D19091D7A}"
+	ProjectSection(SolutionItems) = preProject
+		..\TakNotify.Provider.Mailgun\build-test.ps1 = ..\TakNotify.Provider.Mailgun\build-test.ps1
+		..\TakNotify.Provider.Mailgun\build.ps1 = ..\TakNotify.Provider.Mailgun\build.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TakNotify.Provider.SendGrid", "TakNotify.Provider.SendGrid", "{AB6D8CA3-A7DE-4638-B045-EB9DF928B3B8}"
+	ProjectSection(SolutionItems) = preProject
+		..\TakNotify.Provider.SendGrid\build-test.ps1 = ..\TakNotify.Provider.SendGrid\build-test.ps1
+		..\TakNotify.Provider.SendGrid\build.ps1 = ..\TakNotify.Provider.SendGrid\build.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TakNotify.Provider.Smtp", "TakNotify.Provider.Smtp", "{DA2434D6-DE52-405E-B912-7B69ACB568FA}"
+	ProjectSection(SolutionItems) = preProject
+		..\TakNotify.Provider.Smtp\build-test.ps1 = ..\TakNotify.Provider.Smtp\build-test.ps1
+		..\TakNotify.Provider.Smtp\build.ps1 = ..\TakNotify.Provider.Smtp\build.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TakNotify.Provider.Twilio", "TakNotify.Provider.Twilio", "{5F01F962-9B95-44BF-99B7-1986F99F0599}"
+	ProjectSection(SolutionItems) = preProject
+		..\TakNotify.Provider.Twilio\build-test.ps1 = ..\TakNotify.Provider.Twilio\build-test.ps1
+		..\TakNotify.Provider.Twilio\build.ps1 = ..\TakNotify.Provider.Twilio\build.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TakNotify.Test", "TakNotify.Test", "{4B2BE79E-8E01-4B29-8BEF-B539DD99BE21}"
+	ProjectSection(SolutionItems) = preProject
+		..\TakNotify.Test\build-test.ps1 = ..\TakNotify.Test\build-test.ps1
+		..\TakNotify.Test\build.ps1 = ..\TakNotify.Test\build.ps1
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "..\Samples\src\ConsoleApp\ConsoleApp.csproj", "{083A9732-C2B5-4882-8197-C156D80B5654}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "..\Samples\src\Web\Web.csproj", "{8AB276E6-94B1-40A0-8576-07793A7C9169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FF9E36E-8A18-487B-B607-805E8EA9E9EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF9E36E-8A18-487B-B607-805E8EA9E9EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF9E36E-8A18-487B-B607-805E8EA9E9EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF9E36E-8A18-487B-B607-805E8EA9E9EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDAB43E2-8EAA-4C02-AB60-0B16A2B1C2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAB43E2-8EAA-4C02-AB60-0B16A2B1C2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAB43E2-8EAA-4C02-AB60-0B16A2B1C2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAB43E2-8EAA-4C02-AB60-0B16A2B1C2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83506621-8F6C-4988-BF5C-8104AA1AE563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83506621-8F6C-4988-BF5C-8104AA1AE563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83506621-8F6C-4988-BF5C-8104AA1AE563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83506621-8F6C-4988-BF5C-8104AA1AE563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54B7D94-5203-43DF-A3E1-60ABD361D35B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54B7D94-5203-43DF-A3E1-60ABD361D35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54B7D94-5203-43DF-A3E1-60ABD361D35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54B7D94-5203-43DF-A3E1-60ABD361D35B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3762629-7442-4D79-BF40-4E6B9B73CF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3762629-7442-4D79-BF40-4E6B9B73CF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3762629-7442-4D79-BF40-4E6B9B73CF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3762629-7442-4D79-BF40-4E6B9B73CF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7395CB71-E1B0-4D9A-8243-EE3A21982C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7395CB71-E1B0-4D9A-8243-EE3A21982C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7395CB71-E1B0-4D9A-8243-EE3A21982C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7395CB71-E1B0-4D9A-8243-EE3A21982C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D72E046-6530-4547-BA47-64E58B7EC2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D72E046-6530-4547-BA47-64E58B7EC2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D72E046-6530-4547-BA47-64E58B7EC2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D72E046-6530-4547-BA47-64E58B7EC2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FB960D-39DD-4166-AB7E-4FDFC29D557B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FB960D-39DD-4166-AB7E-4FDFC29D557B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FB960D-39DD-4166-AB7E-4FDFC29D557B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FB960D-39DD-4166-AB7E-4FDFC29D557B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F960B3E-B3BA-448D-9601-F2104D47CEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F960B3E-B3BA-448D-9601-F2104D47CEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F960B3E-B3BA-448D-9601-F2104D47CEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F960B3E-B3BA-448D-9601-F2104D47CEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B16905-8763-4691-825A-2421C67661F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B16905-8763-4691-825A-2421C67661F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B16905-8763-4691-825A-2421C67661F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B16905-8763-4691-825A-2421C67661F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6938CA-24B3-4A81-8A90-4080985DDF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6938CA-24B3-4A81-8A90-4080985DDF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6938CA-24B3-4A81-8A90-4080985DDF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6938CA-24B3-4A81-8A90-4080985DDF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6099549C-6E51-495F-989E-30EB9E671889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6099549C-6E51-495F-989E-30EB9E671889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6099549C-6E51-495F-989E-30EB9E671889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6099549C-6E51-495F-989E-30EB9E671889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7176E095-FC66-4EFC-AD89-432F955AF514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7176E095-FC66-4EFC-AD89-432F955AF514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7176E095-FC66-4EFC-AD89-432F955AF514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7176E095-FC66-4EFC-AD89-432F955AF514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D559A4-ACFB-43FE-97AA-54D48C1A4E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D559A4-ACFB-43FE-97AA-54D48C1A4E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D559A4-ACFB-43FE-97AA-54D48C1A4E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D559A4-ACFB-43FE-97AA-54D48C1A4E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E573940-8146-458F-8357-97896A0D8D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E573940-8146-458F-8357-97896A0D8D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E573940-8146-458F-8357-97896A0D8D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E573940-8146-458F-8357-97896A0D8D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17958DB1-1E75-4C5C-B709-0F72F472EF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17958DB1-1E75-4C5C-B709-0F72F472EF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17958DB1-1E75-4C5C-B709-0F72F472EF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17958DB1-1E75-4C5C-B709-0F72F472EF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083A9732-C2B5-4882-8197-C156D80B5654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083A9732-C2B5-4882-8197-C156D80B5654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083A9732-C2B5-4882-8197-C156D80B5654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083A9732-C2B5-4882-8197-C156D80B5654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB276E6-94B1-40A0-8576-07793A7C9169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB276E6-94B1-40A0-8576-07793A7C9169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB276E6-94B1-40A0-8576-07793A7C9169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB276E6-94B1-40A0-8576-07793A7C9169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FF9E36E-8A18-487B-B607-805E8EA9E9EC} = {0CF1BB00-1268-49D0-B621-945A8B051E88}
+		{FDAB43E2-8EAA-4C02-AB60-0B16A2B1C2B6} = {0CF1BB00-1268-49D0-B621-945A8B051E88}
+		{83506621-8F6C-4988-BF5C-8104AA1AE563} = {3FBB0495-98A8-4F33-8CA1-F261AE0B3AEA}
+		{A54B7D94-5203-43DF-A3E1-60ABD361D35B} = {3FBB0495-98A8-4F33-8CA1-F261AE0B3AEA}
+		{E3762629-7442-4D79-BF40-4E6B9B73CF53} = {0CF1BB00-1268-49D0-B621-945A8B051E88}
+		{7395CB71-E1B0-4D9A-8243-EE3A21982C73} = {3FBB0495-98A8-4F33-8CA1-F261AE0B3AEA}
+		{1D72E046-6530-4547-BA47-64E58B7EC2EF} = {0CF1BB00-1268-49D0-B621-945A8B051E88}
+		{98FB960D-39DD-4166-AB7E-4FDFC29D557B} = {3FBB0495-98A8-4F33-8CA1-F261AE0B3AEA}
+		{1F960B3E-B3BA-448D-9601-F2104D47CEB5} = {0CF1BB00-1268-49D0-B621-945A8B051E88}
+		{42B16905-8763-4691-825A-2421C67661F8} = {3FBB0495-98A8-4F33-8CA1-F261AE0B3AEA}
+		{1C6938CA-24B3-4A81-8A90-4080985DDF47} = {0CF1BB00-1268-49D0-B621-945A8B051E88}
+		{6099549C-6E51-495F-989E-30EB9E671889} = {3FBB0495-98A8-4F33-8CA1-F261AE0B3AEA}
+		{7176E095-FC66-4EFC-AD89-432F955AF514} = {0CF1BB00-1268-49D0-B621-945A8B051E88}
+		{59D559A4-ACFB-43FE-97AA-54D48C1A4E27} = {3FBB0495-98A8-4F33-8CA1-F261AE0B3AEA}
+		{2E573940-8146-458F-8357-97896A0D8D5F} = {0CF1BB00-1268-49D0-B621-945A8B051E88}
+		{17958DB1-1E75-4C5C-B709-0F72F472EF64} = {3FBB0495-98A8-4F33-8CA1-F261AE0B3AEA}
+		{CDCB44A9-3790-48A8-AEA5-7DCF8EDBB6FC} = {7449367C-AC24-4C0E-839B-9B81C32D5EB3}
+		{9EF24AA0-B9DE-48B4-9DDF-5178962721EE} = {7449367C-AC24-4C0E-839B-9B81C32D5EB3}
+		{A9960F52-EDF4-4DA3-AFCD-C4FFD824ADD4} = {7449367C-AC24-4C0E-839B-9B81C32D5EB3}
+		{9DBC591B-04D5-439F-BC56-793D19091D7A} = {7449367C-AC24-4C0E-839B-9B81C32D5EB3}
+		{AB6D8CA3-A7DE-4638-B045-EB9DF928B3B8} = {7449367C-AC24-4C0E-839B-9B81C32D5EB3}
+		{DA2434D6-DE52-405E-B912-7B69ACB568FA} = {7449367C-AC24-4C0E-839B-9B81C32D5EB3}
+		{5F01F962-9B95-44BF-99B7-1986F99F0599} = {7449367C-AC24-4C0E-839B-9B81C32D5EB3}
+		{4B2BE79E-8E01-4B29-8BEF-B539DD99BE21} = {7449367C-AC24-4C0E-839B-9B81C32D5EB3}
+		{083A9732-C2B5-4882-8197-C156D80B5654} = {C3D22DEC-9BCD-43F0-B802-4362101EC307}
+		{8AB276E6-94B1-40A0-8576-07793A7C9169} = {C3D22DEC-9BCD-43F0-B802-4362101EC307}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B60C8947-2FE0-441F-9A02-6E9E1393628D}
+	EndGlobalSection
+EndGlobal

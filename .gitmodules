@@ -1,0 +1,27 @@
+[submodule "TakNotify"]
+	path = TakNotify
+	url = https://github.com/TakNotify/TakNotify
+[submodule "TakNotify.AspNetCore"]
+	path = TakNotify.AspNetCore
+	url = https://github.com/TakNotify/TakNotify.AspNetCore
+[submodule "TakNotify.Provider.AmazonSES"]
+	path = TakNotify.Provider.AmazonSES
+	url = https://github.com/TakNotify/TakNotify.Provider.AmazonSES
+[submodule "TakNotify.Provider.Mailgun"]
+	path = TakNotify.Provider.Mailgun
+	url = https://github.com/TakNotify/TakNotify.Provider.Mailgun
+[submodule "TakNotify.Provider.Twilio"]
+	path = TakNotify.Provider.Twilio
+	url = https://github.com/TakNotify/TakNotify.Provider.Twilio
+[submodule "TakNotify.Provider.SendGrid"]
+	path = TakNotify.Provider.SendGrid
+	url = https://github.com/TakNotify/TakNotify.Provider.SendGrid
+[submodule "TakNotify.Provider.Smtp"]
+	path = TakNotify.Provider.Smtp
+	url = https://github.com/TakNotify/TakNotify.Provider.Smtp
+[submodule "TakNotify.Test"]
+	path = TakNotify.Test
+	url = https://github.com/TakNotify/TakNotify.Test
+[submodule "Samples"]
+	path = Samples
+	url = https://github.com/TakNotify/Samples
